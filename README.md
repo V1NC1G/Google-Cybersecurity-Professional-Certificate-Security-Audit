@@ -86,14 +86,66 @@ Listed in the table are controls and compliance best practices that should be de
 
 ### Controls Assessment Checklist
 
+| **YES** | **NO** | **CONTROL**                                                         |
+| ------- | ------ | ------------------------------------------------------------------- |
+|         | X      | Least Privilege                                                     |
+|         | X      | Disaster recovery plans                                             |
+|         | X      | Password policies                                                   |
+|         | X      | Separation of duties                                                |
+| X       |        | Firewall                                                            |
+|         | X      | Intrusion detection system (IDS)                                    |
+|         | X      | Backups                                                             |
+| X       |        | Antivirus software                                                  |
+|         | X      | Manual monitoring, maintenance, and intervention for legacy systems |
+|         | X      | Encryption                                                          |
+|         | X      | Password management system                                          |
+| X       |        | Locks (offices, storefront, warehouse)                              |
+| X       |        | Closed-circuit television (CCTV) surveillance                       |
+| X       |        | Fire detection/prevention (fire alarm, sprinkler system, etc.)      |
+
 ### Compliance Checklist
 
 #### Payment and Card Industry Data Security Standard (PCI DSS)
 
+| **YES** | **NO** | **CONTROL**                                                                                                  |
+| ------- | ------ | ------------------------------------------------------------------------------------------------------------ |
+|         | X      | Only authorized users have access to customers’ credit card information.                                     |
+|         | X      | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment. |
+|         | X      | Implement data encryption procedures to better secure credit card transaction touchpoints and data.          |
+|         | X      | Adopt secure password management policies.                                                                   |
+
 #### General Data Protection Regulation
+
+| **YES** | **NO** | **CONTROL**                                                                                                       |
+| ------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
+|         | X      | E.U. customers’ data is kept private/secured.                                                                     |
+| X       |        | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. |
+|         | X      | Implement data encryption procedures to better secure credit card transaction touchpoints and data.               |
+|         | X      | Ensure data is properly classified and inventoried.                                                               |
+|         | X      | Enforce privacy policies, procedures, and processes to properly document and maintain data.                       |
 
 #### System and Organizations Controls (SOC Type 1, SOC Type 2)
 
+| **YES** | **NO** | **CONTROL**                                                                                |
+| ------- | ------ | ------------------------------------------------------------------------------------------ |
+|         | X      | User access policies are established.                                                      |
+|         | X      | Sensitive data (PII/SPII) is confidential/private.                                         |
+|         | X      | Data integrity ensures the data is consistent, complete, accurate, and has been validated. |
+|         | X      | Data is available to individuals authorized to access it.                                  |
+
 ### Recommendations
 
+- Follow the principle of least privilege and separation of duties where employees within the company are given the least amount of access to assets/data but still be able to accomplish their day-to-day tasks.
+- Initiate a company-wide password reset and set password polices to achieve a strong password for all users. At the same time, establish a password management system to enforce these policies.
+- Establish a disaster recovery plan and backup as to not to lose high-risk assets in case a breach or system failure occurs. This would also factor directy to data integrity as maintaining data integrity involves safeguarding an organization's data from loss and leaks.
+- Make use of an IDS to monitor system activity to detect intrusions or unauthorized access.
+- An additional tool that can be used by the organization are SIEM tools. This would improve the effectiveness in the detection and identification of security breaches.
+- Establish standard internal guidelines in monitoring, maintaining, and intervening on legacy systems. It would be better to take priority in setting up guidelines first on legacy systems that are affecting high-risk assets.
+
 ## Learning Experience
+
+There was certainly a lot that goes into doing an audit. From knowing different types of controls and thinking about how it would bolster the security of an organization, to compliance where those controls are closely tied together.
+
+This mock audit made me think about how broad cybersecurity really is and that having good foundational knowledge can help a security professional prepare, detect, analyze, and mitigate risks, threats, and vulnerabilites.
+
+The mock audit also made me look back at some of my notes as to check if there are other controls that I could implement to further improve the security posture of the organization.
