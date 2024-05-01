@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Objectives](#objectives)
 - [Scenario](#scenario)
 - [Task](#task)
 - [Scope, Goals, and Risk Assessment Report](#botium-toys-scope-goals-and-risk-assessment-report)
@@ -16,6 +17,10 @@
     - [SOC type 1 & SOC type 2](#system-and-organizations-controls-soc-type-1-soc-type-2)
   - [Recommendations](#recommendations)
 - [Learning Experience](#learning-experience)
+
+## Objectives
+
+The objective of this portfolio project is to conduct a security audit from a fictional company given their scope, goals, and risk assessment report.
 
 ## Scenario
 
